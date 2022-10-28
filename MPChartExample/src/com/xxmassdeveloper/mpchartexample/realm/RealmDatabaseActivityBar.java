@@ -3,12 +3,12 @@ package com.xxmassdeveloper.mpchartexample.realm;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.animation.Easing;
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.data.realm.implementation.RealmBarData;
-import com.github.mikephil.charting.data.realm.implementation.RealmBarDataSet;
-import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.animation.Easing;
+import com.github.mikephil.charting.legacy.charts.BarChart;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmBarData;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmBarDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.IBarDataSet;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 

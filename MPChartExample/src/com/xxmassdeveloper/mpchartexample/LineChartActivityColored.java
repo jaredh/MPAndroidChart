@@ -6,13 +6,13 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.charts.LineChart;
+import com.github.mikephil.charting.legacy.components.Legend;
+import com.github.mikephil.charting.legacy.data.Entry;
+import com.github.mikephil.charting.legacy.data.LineData;
+import com.github.mikephil.charting.legacy.data.LineDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.ILineDataSet;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

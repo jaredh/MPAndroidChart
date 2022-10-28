@@ -4,11 +4,11 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.RadarChart;
-import com.github.mikephil.charting.data.RadarData;
-import com.github.mikephil.charting.data.realm.implementation.RealmRadarDataSet;
-import com.github.mikephil.charting.interfaces.datasets.IRadarDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.charts.RadarChart;
+import com.github.mikephil.charting.legacy.data.RadarData;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmRadarDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.IRadarDataSet;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 

@@ -10,19 +10,19 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.Legend.LegendForm;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.components.YAxis.AxisDependency;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.ColorTemplate;
-import com.github.mikephil.charting.highlight.Highlight;
+import com.github.mikephil.charting.legacy.charts.LineChart;
+import com.github.mikephil.charting.legacy.components.Legend;
+import com.github.mikephil.charting.legacy.components.Legend.LegendForm;
+import com.github.mikephil.charting.legacy.components.XAxis;
+import com.github.mikephil.charting.legacy.components.YAxis;
+import com.github.mikephil.charting.legacy.components.YAxis.AxisDependency;
+import com.github.mikephil.charting.legacy.data.Entry;
+import com.github.mikephil.charting.legacy.data.LineData;
+import com.github.mikephil.charting.legacy.data.LineDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.ILineDataSet;
+import com.github.mikephil.charting.legacy.listener.OnChartValueSelectedListener;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.highlight.Highlight;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 public class RealtimeLineChartActivity extends DemoBase implements

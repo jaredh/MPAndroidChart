@@ -6,15 +6,15 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.XAxis.XAxisPosition;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.utils.ViewPortHandler;
+import com.github.mikephil.charting.legacy.charts.BarChart;
+import com.github.mikephil.charting.legacy.components.XAxis;
+import com.github.mikephil.charting.legacy.components.XAxis.XAxisPosition;
+import com.github.mikephil.charting.legacy.components.YAxis;
+import com.github.mikephil.charting.legacy.data.BarData;
+import com.github.mikephil.charting.legacy.data.BarDataSet;
+import com.github.mikephil.charting.legacy.data.BarEntry;
+import com.github.mikephil.charting.legacy.data.Entry;
+import com.github.mikephil.charting.legacy.utils.ViewPortHandler;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.text.DecimalFormat;
@@ -148,7 +148,7 @@ public class BarChartPositiveNegative extends DemoBase {
         }
     }
 
-    private class ValueFormatter implements com.github.mikephil.charting.formatter.ValueFormatter {
+    private class ValueFormatter implements com.github.mikephil.charting.legacy.formatter.ValueFormatter {
 
         private DecimalFormat mFormat;
 

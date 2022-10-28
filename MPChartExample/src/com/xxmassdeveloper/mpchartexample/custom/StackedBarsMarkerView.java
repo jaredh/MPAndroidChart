@@ -4,12 +4,12 @@ package com.xxmassdeveloper.mpchartexample.custom;
 import android.content.Context;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.components.MarkerView;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.CandleEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.utils.Utils;
+import com.github.mikephil.charting.legacy.components.MarkerView;
+import com.github.mikephil.charting.legacy.data.BarEntry;
+import com.github.mikephil.charting.legacy.data.CandleEntry;
+import com.github.mikephil.charting.legacy.data.Entry;
+import com.github.mikephil.charting.legacy.highlight.Highlight;
+import com.github.mikephil.charting.legacy.utils.Utils;
 import com.xxmassdeveloper.mpchartexample.R;
 
 /**

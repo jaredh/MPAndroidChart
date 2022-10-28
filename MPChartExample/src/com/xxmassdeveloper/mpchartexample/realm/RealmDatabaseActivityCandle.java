@@ -5,11 +5,11 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.animation.Easing;
-import com.github.mikephil.charting.charts.CandleStickChart;
-import com.github.mikephil.charting.data.realm.implementation.RealmCandleData;
-import com.github.mikephil.charting.data.realm.implementation.RealmCandleDataSet;
-import com.github.mikephil.charting.interfaces.datasets.ICandleDataSet;
+import com.github.mikephil.charting.legacy.animation.Easing;
+import com.github.mikephil.charting.legacy.charts.CandleStickChart;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmCandleData;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmCandleDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.ICandleDataSet;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 

@@ -1,8 +1,8 @@
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.formatter.FillFormatter;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.github.mikephil.charting.interfaces.dataprovider.LineDataProvider;
+import com.github.mikephil.charting.legacy.formatter.FillFormatter;
+import com.github.mikephil.charting.legacy.interfaces.datasets.ILineDataSet;
+import com.github.mikephil.charting.legacy.interfaces.dataprovider.LineDataProvider;
 
 /**
  * Created by Philipp Jahoda on 12/09/15.

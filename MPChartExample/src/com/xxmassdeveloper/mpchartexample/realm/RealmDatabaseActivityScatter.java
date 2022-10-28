@@ -3,12 +3,12 @@ package com.xxmassdeveloper.mpchartexample.realm;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.animation.Easing;
-import com.github.mikephil.charting.charts.ScatterChart;
-import com.github.mikephil.charting.data.realm.implementation.RealmScatterData;
-import com.github.mikephil.charting.data.realm.implementation.RealmScatterDataSet;
-import com.github.mikephil.charting.interfaces.datasets.IScatterDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.animation.Easing;
+import com.github.mikephil.charting.legacy.charts.ScatterChart;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmScatterData;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmScatterDataSet;
+import com.github.mikephil.charting.legacy.interfaces.datasets.IScatterDataSet;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 

@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    buildToolsVersion '24.0.3'
     // resourcePrefix 'mpcht'
     defaultConfig {
         minSdkVersion 8
@@ -33,9 +33,13 @@ android {
 }
 
 repositories {
-    maven {
-        url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
-    }
+//    google()
+    maven { url 'https://maven.google.com' }
+    mavenCentral()
+    jcenter()
+//    maven {
+//        url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+//    }
 }
 
 dependencies {

@@ -1,7 +1,7 @@
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.formatter.YAxisValueFormatter;
+import com.github.mikephil.charting.legacy.components.YAxis;
+import com.github.mikephil.charting.legacy.formatter.YAxisValueFormatter;
 
 import java.text.DecimalFormat;
 

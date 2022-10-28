@@ -9,10 +9,10 @@ import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.PieChart;
-import com.github.mikephil.charting.data.realm.implementation.RealmPieData;
-import com.github.mikephil.charting.data.realm.implementation.RealmPieDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.legacy.charts.PieChart;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmPieData;
+import com.github.mikephil.charting.legacy.data.realm.implementation.RealmPieDataSet;
+import com.github.mikephil.charting.legacy.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.R;
 import com.xxmassdeveloper.mpchartexample.custom.RealmDemoData;
 
